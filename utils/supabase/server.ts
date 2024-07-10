@@ -3,7 +3,7 @@ import { cookies } from 'next/headers'
 
 export function createClient() {
   const cookieStore = cookies()
-  const cookieData = cookieStore.getAll()
+  let cookieData = cookieStore.getAll()
 
   return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
