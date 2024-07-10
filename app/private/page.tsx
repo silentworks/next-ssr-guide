@@ -1,6 +1,6 @@
 // import { redirect } from 'next/navigation'
 // import { createClient } from '@/utils/supabase/server'
-import { cookies } from 'next/headers'
+// import { cookies } from 'next/headers'
 
 export default function PrivatePage() {
   // const supabase = createClient()
@@ -11,7 +11,7 @@ export default function PrivatePage() {
   // }
 
   // return <p>Hello {data.user.email}</p>
-  const cookieData = cookies().getAll()
-  console.log({ cookieData })
+  // const cookieData = cookies().getAll()
+  // console.log({ cookieData })
   return <h1>Hello World!!!</h1>
 }
