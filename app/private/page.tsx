@@ -2,7 +2,7 @@
 // import { createClient } from '@/utils/supabase/server'
 import { cookies } from 'next/headers'
 
-export default async function PrivatePage() {
+export default function PrivatePage() {
   // const supabase = createClient()
 
   // const { data, error } = await supabase.auth.getUser()
